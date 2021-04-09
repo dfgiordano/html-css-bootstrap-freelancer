@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+    margin : 0; 
+    padding: 0;
+}
+header {
+    height: 150px;
+    background-color: #2C3E51;
+}
+header .col-xs-5,
+header .col-xs-2  {
+    height: 80px;
+    margin-top: 35px;
+    background-color: white;
+}
+.jumbotron {
+    height: 450px;
+    text-align:center;
+    background-color: #3BBC9C;
+}
+.image1 {
+    height: 150px;
+    background-color: blue;
+}
+.jumbotron h1,
+.jumbotron h4{
+    color: white;
+    text-transform: uppercase;
+}
+.big_star_divider {
+    height: 50px;
+    margin-top: 30px;
+    background-color:white;
+}
+.jumbotron h4 {
+    margin-top: 30px;
+}
