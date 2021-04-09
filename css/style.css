@@ -1,3 +1,4 @@
+/* common */
 * {
     box-sizing: border-box;
     margin : 0; 
@@ -12,6 +13,10 @@
 .star_divider {
     height: 50px;
     margin-top: 30px;
+}
+.btn {
+    padding: 10px;
+    border-radius: 5px;
 }
 /* header */
 header {
@@ -82,4 +87,50 @@ main .star_divider {
     border-radius : 10px;
     background-color: #CCB2A3;
 }
-
+/* section1 */
+.section_1 {
+    height: 500px;
+    color:white;
+    background-color: #3BBC9C;
+}
+.section_1 h3 {
+    padding-top: 40px;
+}
+.section_1 .star_divider {
+    background-color: white;
+}
+.section_1 p {
+    padding-top: 25px;
+}
+.btn_middle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid white;
+}
+/* section2 */
+.section_2 {
+    height: 500px;
+}
+.section_2 h3 {
+    color:#333333;
+}
+.section_2 .star_divider {
+    background-color:#2C3E51;
+}
+.section_2 .col-xs-7.col-xs-offset-3 {
+    padding: 20px 0;
+}
+.section_2 .col-xs-offset-3:nth-child(2),
+.section_2 .col-xs-offset-3:nth-child(3),
+.section_2 .col-xs-offset-3:nth-child(4) {
+    border-top: 1px solid black;
+}
+.section_2 .btn_green {
+    color: white;
+    background-color: #3BBC9C;
+    border: none;
+}
+/* .section_2 .col-xs-offset-3:not(:first-child) {
+    border-top: 1px solid black;
+} */
