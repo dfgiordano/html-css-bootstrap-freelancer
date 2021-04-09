@@ -1,9 +1,19 @@
-
 * {
     box-sizing: border-box;
     margin : 0; 
     padding: 0;
 }
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.star_divider {
+    height: 50px;
+    margin-top: 30px;
+}
+/* header */
 header {
     height: 150px;
     background-color: #2C3E51;
@@ -14,25 +24,62 @@ header .col-xs-2  {
     margin-top: 35px;
     background-color: white;
 }
+/* jumbotron */
 .jumbotron {
     height: 450px;
     text-align:center;
     background-color: #3BBC9C;
 }
-.image1 {
+.profile {
     height: 150px;
     background-color: blue;
 }
 .jumbotron h1,
 .jumbotron h4{
     color: white;
-    text-transform: uppercase;
 }
-.big_star_divider {
-    height: 50px;
-    margin-top: 30px;
+.jumbotron .star_divider {
     background-color:white;
 }
 .jumbotron h4 {
     margin-top: 30px;
 }
+/* main */
+main h3 {
+    text-align: center;
+    color:#333333;
+}
+main .star_divider {
+    background-color:#2C3E51;
+}
+.home {
+    height: 150px;
+    border-radius : 10px;
+    background-color:#BA4B63;
+}
+.cake {
+    height: 150px;
+    border-radius : 10px;
+    background-color: #32A4B6;
+}
+.circus {
+    height: 150px;
+    border-radius : 10px;
+    background-color:#150F0F;
+}
+.game {
+    height: 150px;
+    border-radius : 10px;
+    background-color:#2583C1;
+}
+.safe {
+    height: 150px;
+    border-radius : 10px;
+    background-color:#0E38B5;
+}
+.submarine {
+    height: 150px;
+    border-radius : 10px;
+    background-color: #CCB2A3;
+}
+
