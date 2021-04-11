@@ -11,32 +11,56 @@
     margin-bottom: 20px;
 }
 .star_divider {
-    height: 50px;
-    margin-top: 30px;
+    text-align:center;
+    margin-top: 10px;
+    font-size: 40px;
 }
 .btn {
     padding: 10px;
     border-radius: 5px;
 }
-/* header */
-header {
-    height: 150px;
-    background-color: #2C3E51;
+.line {
+    width: 20%;
+    height:5px;
+    border-radius: 5px;
+    vertical-align:middle;
+    display:inline-block;
 }
-header .col-xs-2  {
-    height: 80px;
-    margin-top: 35px;
+.bg_blue {
+    background-color:#2C3E51;
+}
+.bg_white {
     background-color: white;
 }
-header  h4 {
-    line-height: 150px;
+/* header */
+header {
+    height: 100px;
+    background-color: #2C3E51;
+}
+/* header .col-xs-3  {
+    height: 80px;
+    margin-top: 10px;
+    vertical-align: middle;
+    background-color: white;
+} */
+header ul li {
+    line-height: 100px;
+    font-size: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+header h4 {
+    line-height: 100px;
     margin:0px;
     vertical-align: middle;
     color: white;
 }
 /* jumbotron */
 .jumbotron {
-    height: 450px;
     text-align:center;
     background-color: #3BBC9C;
 }
@@ -44,22 +68,19 @@ header  h4 {
     height:200px;
 }
 .jumbotron h1,
-.jumbotron h4{
+.jumbotron h5{
     color: white;
 }
 .jumbotron .star_divider {
-    background-color:white;
+    color:white;
 }
-.jumbotron h4 {
-    margin-top: 30px;
+.jumbotron h5 {
+    margin-top: 10px;
 }
 /* main */
 main h3 {
     text-align: center;
     color:#333333;
-}
-main .star_divider {
-    background-color:#2C3E51;
 }
 .main_image {
     display:block;
@@ -99,9 +120,6 @@ main .star_divider {
 .section_1 h3 {
     padding-top: 40px;
 }
-.section_1 .star_divider {
-    background-color: white;
-}
 .section_1 p {
     padding-top: 25px;
 }
@@ -113,21 +131,25 @@ main .star_divider {
 }
 /* section2 */
 .section_2 {
-    height: 500px;
+    margin-bottom: 20px;
 }
 .section_2 h3 {
     color:#333333;
 }
 .section_2 .star_divider {
-    background-color:#2C3E51;
+    color:#2C3E51;
 }
 .no_padding > label,
 .no_padding > input {
     padding:0px;
 }
+label {
+    margin-top : 10px;
+    color:#394959;
+}
 input {
     border: 0px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
 }
 input:focus {
     outline: none;
@@ -177,7 +199,42 @@ span {
     background-color: #2C3E51;
 }
 @media screen and (max-width: 767px) {
+    
+    .jumbotron h5 {
+        font-size : 16px;
+    }
     .main_image {
         height: 200px;
     }
+}
+@media screen and (min-width: 970px) {
+    
+    header h4 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size : 30px;
+        font-weight: 400;
+    }
+    .section_1 {
+        height: 350px;
+    }
+    .section_2 {
+        height: 450px;
+    }
+    .section_footer_1 {
+        height: 250px;
+    }
+    .section_footer_1 h4 {
+        font-size: 28px;
+    }
+
+}
+@media screen and (min-width: 1170px) {
+    
+    .main_image {
+        height: 250px;
+    }
+   
+    
 }
