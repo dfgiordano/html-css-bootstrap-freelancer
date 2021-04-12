@@ -216,6 +216,12 @@ span {
     vertical-align: middle;
     background-color: #2C3E51;
 }
+.little_logos:hover {
+    color:#2C3E51;
+    background-color: white;
+}
+
+/* query */
 @media screen and (max-width: 767px) {
     
     header h4 {
