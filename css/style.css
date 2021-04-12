@@ -43,6 +43,9 @@ header {
     vertical-align: middle;
     background-color: white;
 } */
+header ul {
+    margin: 0px;
+}
 header ul li {
     line-height: 100px;
     font-size: 20px;
@@ -123,6 +126,13 @@ main h3 {
 .section_1 p {
     padding-top: 25px;
 }
+.btn_middle:hover {
+    color: black;
+    background-color: white;
+}
+.btn_middle a:hover {
+    text-decoration: none;
+}
 .btn_middle {
     position: absolute;
     left: 50%;
@@ -160,6 +170,15 @@ input:focus {
     background-color: #3BBC9C;
     border: none;
 }
+.section_2 .btn_green:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
+.section_2 .btn_green a:hover {
+    text-decoration: none;
+}
+
 .no_padding > input.message {
     height: 70px;
     margin-bottom: 15px;
@@ -170,7 +189,6 @@ footer {
     text-align: center;
 }
 .section_footer_1 {
-    height:400px;
     font-size: 20px;
     background-color: #3A546E;
 }
@@ -200,6 +218,9 @@ span {
 }
 @media screen and (max-width: 767px) {
     
+    header h4 {
+        font-size: 16px;
+    }
     .jumbotron h5 {
         font-size : 16px;
     }
@@ -207,7 +228,7 @@ span {
         height: 200px;
     }
 }
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 768px) {
     
     header h4 {
         font-size: 30px;
@@ -216,14 +237,14 @@ span {
         font-size : 30px;
         font-weight: 400;
     }
+    .main_image {
+        height: 220px;
+    }
     .section_1 {
-        height: 350px;
+        height: 400px;
     }
     .section_2 {
         height: 450px;
-    }
-    .section_footer_1 {
-        height: 250px;
     }
     .section_footer_1 h4 {
         font-size: 28px;
@@ -235,6 +256,11 @@ span {
     .main_image {
         height: 250px;
     }
+    .section_1 {
+        height: 350px;
+    }
+    .section_footer_1 {
+        height: 200px;
+    }
    
-    
 }
