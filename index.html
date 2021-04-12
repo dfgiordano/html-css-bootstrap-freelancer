@@ -12,20 +12,29 @@
     <body>
         <!-- inizio header -->
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <h4 class="text-uppercase">start bootstrap</h4>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
                     </div>
-                    <div class="col-xs-6 text-uppercase text-right">
-                        <ul>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right text-uppercase">
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#contact_me">contact</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
         </header>
          <!-- /inizio header -->
         <!-- inizio jumbotron -->
@@ -44,7 +53,7 @@
         <!-- /inizio jumbotron -->
         <!-- inizio main -->
         <main>
-            <div class="container">
+            <div id="portfolio" class="container">
                 <div class="row">
                     <h3 class="text-uppercase">portfolio</h3>
                     <div class="star_divider">
@@ -90,7 +99,7 @@
         </main>
         <!-- /inizio main -->
         <!-- inizio sezione 1 -->
-        <section class="section_1">
+        <section id="about" class="section_1">
             <h3 class="text-center text-uppercase">about</h3>
             <div class="star_divider">
                 <hr class="line bg_white">
@@ -121,7 +130,8 @@
         </section>
         <!-- /inizio sezione 1 -->
         <!-- inizio sezione 2 -->
-        <section class="section_2">
+        <section id="contact_me" 
+        class="section_2">
             <div class="container">
                 <div class="row">
                         <h3 class="text-uppercase text-center">contact me</h3>

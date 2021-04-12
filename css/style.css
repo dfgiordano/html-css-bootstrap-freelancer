@@ -35,18 +35,14 @@
 /* header */
 header {
     height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
     background-color: #2C3E51;
 }
-/* header .col-xs-3  {
-    height: 80px;
-    margin-top: 10px;
-    vertical-align: middle;
-    background-color: white;
-} */
-header ul {
-    margin: 0px;
-}
-header ul li {
+.navbar-default .navbar-nav>li>a {
+    padding:0;
     line-height: 100px;
     font-size: 20px;
     padding-right: 10px;
@@ -55,6 +51,33 @@ header ul li {
     text-decoration: none;
     display: inline-block;
     color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #3BBC9C;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #3BBC9C;
+}
+.navbar-default {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    background-color: #2C3E51;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    padding:0;
+    margin:0;
+    padding-left : 15px;
+    line-height: 100px;
+    font-size: 28px;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
 }
 header h4 {
     line-height: 100px;
@@ -65,6 +88,7 @@ header h4 {
 /* jumbotron */
 .jumbotron {
     text-align:center;
+    padding-top: 120px;
     background-color: #3BBC9C;
 }
 #profile {
@@ -224,6 +248,14 @@ span {
 /* query */
 @media screen and (max-width: 767px) {
     
+    .navbar-toggle {
+        margin-top: 33px;
+        margin-bottom: 33px;
+        background-color: #2C3E51;
+    }
+    .collapse.navbar-collapse {
+        background-color: #2C3E51;
+    }
     header h4 {
         font-size: 16px;
     }
