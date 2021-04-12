@@ -154,7 +154,8 @@ main h3 {
     color: black;
     background-color: white;
 }
-.btn_middle a:hover {
+.btn_middle a:hover,
+.btn-green a:hover {
     text-decoration: none;
 }
 .btn_middle {
@@ -233,6 +234,9 @@ footer {
 }
 span {
     color:#3BBC9C;
+}
+span:hover {
+    text-decoration: underline;
 }
 .section_footer_2 {
     height: 120px;
