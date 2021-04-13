@@ -62,6 +62,7 @@ header {
     height: 100px;
     line-height: 100px;
     vertical-align: middle;
+    border-color: #2C3E51;
     background-color: #2C3E51;
 }
 .navbar-default .navbar-brand,
@@ -112,31 +113,9 @@ main h3 {
 .main_image {
     display:block;
     margin:auto;
-    height: 300px;
-}
-.home {
+    width:100%;
     border-radius : 10px;
-    background-color:#BA4B63;
-}
-.cake {
-    border-radius : 10px;
-    background-color: #32A4B6;
-}
-.circus {
-    border-radius : 10px;
-    background-color:#150F0F;
-}
-.game {
-    border-radius : 10px;
-    background-color:#2583C1;
-}
-.safe {
-    border-radius : 10px;
-    background-color:#0E38B5;
-}
-.submarine {
-    border-radius : 10px;
-    background-color: #CCB2A3;
+    overflow: hidden;
 }
 /* section1 */
 .section_1 {
@@ -266,9 +245,6 @@ span:hover {
     .jumbotron h5 {
         font-size : 16px;
     }
-    .main_image {
-        height: 200px;
-    }
 }
 @media screen and (min-width: 768px) {
     
@@ -295,9 +271,6 @@ span:hover {
 }
 @media screen and (min-width: 1170px) {
     
-    .main_image {
-        height: 250px;
-    }
     .section_1 {
         height: 350px;
     }
